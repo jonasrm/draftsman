@@ -1,0 +1,20 @@
+c:\users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\bin\Debug\Desenhista.exe.config
+c:\users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\bin\Debug\Desenhista.exe
+c:\users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\bin\Debug\Desenhista.pdb
+c:\users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\obj\Debug\Desenhista.csprojResolveAssemblyReference.cache
+c:\users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\obj\Debug\Desenhista.Properties.Resources.resources
+c:\users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\obj\Debug\Desenhista.csproj.GenerateResource.Cache
+c:\users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\obj\Debug\Desenhista.exe
+c:\users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\obj\Debug\Desenhista.pdb
+C:\Users\jonas\documents\visual studio 2015\Projects\Desenhista\Desenhista\obj\Debug\Desenhista.MDI.resources
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Desenhista.exe.config
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\obj\Debug\Desenhista.exe
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\obj\Debug\Desenhista.pdb
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\obj\Debug\Desenhista.csprojResolveAssemblyReference.cache
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\obj\Debug\Desenhista.MDI.resources
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\obj\Debug\Desenhista.Properties.Resources.resources
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\obj\Debug\Desenhista.csproj.GenerateResource.Cache
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Desenhista.exe
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Desenhista.pdb
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Newtonsoft.Json.xml
