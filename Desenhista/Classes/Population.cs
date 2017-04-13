@@ -71,7 +71,7 @@ namespace Desenhista.Classes
                         fitness = Tools.CalculateFitnessWithPixel(o.GetImagemReduced(), Tools.imageTargetReduced);
                         break;
                 }
-                o.fitness = (int)fitness;
+                o.fitness = fitness;
             }
             organism = organism.OrderBy(o => o.fitness).ToList();
         }

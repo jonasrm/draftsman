@@ -18,3 +18,14 @@ C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Desenhista.exe
 C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Desenhista.pdb
 C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Newtonsoft.Json.dll
 C:\Users\jonas.mendes\Documents\Desenhista\Desenhista\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\bin\Debug\Desenhista.exe.config
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\bin\Debug\Desenhista.exe
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\bin\Debug\Desenhista.pdb
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\obj\Debug\Desenhista.csprojResolveAssemblyReference.cache
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\obj\Debug\Desenhista.MDI.resources
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\obj\Debug\Desenhista.Properties.Resources.resources
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\obj\Debug\Desenhista.csproj.GenerateResource.Cache
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\obj\Debug\Desenhista.exe
+C:\Users\jonas\Desktop\draftsman-master\Desenhista\obj\Debug\Desenhista.pdb

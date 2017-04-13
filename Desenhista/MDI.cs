@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -100,7 +101,7 @@ namespace Desenhista
                 case 0:
                     Tools.typeForm = Tools.TypeForm.ellipse;
                     Tools.maxDiameter = picResultado.Width;
-                    Tools.maxDNA = 500;
+                    Tools.maxDNA = 1000;
                     Tools.addDNA = 1;
                     break;
                 case 1:
@@ -169,6 +170,13 @@ namespace Desenhista
             this.Refresh();
         }
 
+        public void SalvarImagem()
+        {
+            string diretorio = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            var best = population.GetPopulation()[0];
+            Bitmap res = best.GetImage();
+            res.Save(diretorio + "\\" + DateTime.Now.ToString("yyyyMMddHHmmssffff") + ".jpg", ImageFormat.Jpeg);
+        }
 
         /// <summary>
         /// Exibir etapa
@@ -196,6 +204,12 @@ namespace Desenhista
                 case Etapa.Avaliar:
                     population.ToEvaluate();
 
+                    if (chkSave.Checked && population.generation % 100 == 0)
+                    {
+                        AtualizarTela();
+                        SalvarImagem();
+                    }
+
                     etapa = Etapa.SelecaoNatural;
                     break;
                 case Etapa.SelecaoNatural:
@@ -215,7 +229,7 @@ namespace Desenhista
                     break;
                 case Etapa.ProximaGeracao:
                     population.NextGeneration();
-                    
+
                     etapa = Etapa.Avaliar;
                     break;
             }
@@ -256,7 +270,8 @@ namespace Desenhista
             while (population.generation < Tools.generation && executar)
             {
                 ProximaEtapa();
-                AtualizarTela();
+                if (!chkSave.Checked)
+                    AtualizarTela();
             }
                 
         }

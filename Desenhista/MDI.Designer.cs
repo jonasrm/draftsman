@@ -70,6 +70,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.chkSave = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.picOrigem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResultado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMutacao)).BeginInit();
@@ -106,7 +107,7 @@
             // 
             this.btnSelecionarOrigem.Location = new System.Drawing.Point(12, 96);
             this.btnSelecionarOrigem.Name = "btnSelecionarOrigem";
-            this.btnSelecionarOrigem.Size = new System.Drawing.Size(524, 24);
+            this.btnSelecionarOrigem.Size = new System.Drawing.Size(465, 24);
             this.btnSelecionarOrigem.TabIndex = 4;
             this.btnSelecionarOrigem.Text = "Selecionar Imagem...";
             this.btnSelecionarOrigem.UseVisualStyleBackColor = true;
@@ -526,11 +527,22 @@
             this.label17.TabIndex = 68;
             this.label17.Text = "N";
             // 
+            // chkSave
+            // 
+            this.chkSave.AutoSize = true;
+            this.chkSave.Location = new System.Drawing.Point(483, 100);
+            this.chkSave.Name = "chkSave";
+            this.chkSave.Size = new System.Drawing.Size(56, 17);
+            this.chkSave.TabIndex = 69;
+            this.chkSave.Text = "Salvar";
+            this.chkSave.UseVisualStyleBackColor = true;
+            // 
             // MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(550, 540);
+            this.ClientSize = new System.Drawing.Size(550, 544);
+            this.Controls.Add(this.chkSave);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -638,6 +650,7 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.CheckBox chkSave;
     }
 }
 
